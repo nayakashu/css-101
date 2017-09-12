@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+
+        .wrapper>div {
+            background: #eeeeee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio nostrum laboriosam? Quos corporis enim cupiditate,
+            tenetur, aperiam ex magni eveniet nihil iure, molestiae aspernatur? Totam provident fuga voluptas ducimus odit
+            deleniti ipsum excepturi, possimus, nesciunt neque mollitia? Culpa quaerat, quo tempora voluptas ipsa sed aperiam
+            molestias aspernatur repellendus sint possimus non impedit provident quis alias, quae libero voluptates repudiandae
+            praesentium, repellat amet mollitia aliquam fugiat reiciendis! Enim tempore quos id! Qui facere velit aut tenetur
+            quam cum maiores dolorem?
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptates consectetur cupiditate enim cumque sequi eum quae
+            saepe neque obcaecati est itaque voluptate perspiciatis atque omnis quas quos officia inventore!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio nostrum laboriosam? Quos corporis enim cupiditate,
+            tenetur, aperiam ex magni eveniet nihil iure, molestiae aspernatur? Totam provident fuga voluptas ducimus odit
+            deleniti ipsum excepturi, possimus, nesciunt neque mollitia? Culpa quaerat, quo tempora voluptas ipsa sed aperiam
+            molestias aspernatur repellendus sint possimus non impedit provident quis alias, quae libero voluptates repudiandae
+            praesentium, repellat amet mollitia aliquam fugiat reiciendis! Enim tempore quos id! Qui facere velit aut tenetur
+            quam cum maiores dolorem?
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptates consectetur cupiditate enim cumque sequi eum quae
+            saepe neque obcaecati est itaque voluptate perspiciatis atque omnis quas quos officia inventore!
+        </div>
+    </div>
+</body>
+
+</html>
