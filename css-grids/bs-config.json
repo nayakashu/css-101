@@ -6,5 +6,5 @@
       ],
     "server" : { "baseDir" : "./" },
     "https" : false,
-    "port" : 3200
+    "port" : 3002
 }
